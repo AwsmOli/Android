@@ -1,0 +1,1332 @@
+<root>
+    <Characteristic Name="Understeer">
+        <Position Name="Corner Entry">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="2" ChangeDirection="Less"/>
+                    <Setting Setting="Camber" Impact="6" ChangeDirection="More"/>
+                    <Setting Setting="Caster" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Ride Hight" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Toe" Impact="8" ChangeDirection="More"/>
+                    <Setting Setting="Roll Center" Impact="2" ChangeDirection="Less"/>
+                    <Setting Setting="Anti-Roll bar" Impact="1" ChangeDirection="Less"/>
+                    <Setting Setting="Tires" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Shock Springs" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="Shock Damping" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Position" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="One-Way Front Axle" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Solid Front Axle" Impact="5" ChangeDirection="More"/>
+                    <Setting Setting="Front Differential" Impact="6" ChangeDirection="Less"/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="7" ChangeDirection="Less"/>
+                    <Setting Setting="Camber" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Ride Hight" Impact="5" ChangeDirection="More"/>
+                    <Setting Setting="Roll Center" Impact="2" ChangeDirection="More"/>
+                    <Setting Setting="Anti-Roll bar" Impact="1" ChangeDirection="More"/>
+                    <Setting Setting="Tires" Impact="1" ChangeDirection="More"/>
+                    <Setting Setting="Shock Springs" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Damping" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Position" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="Rear Differential" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="Solid Rear Axle" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Gurney Strip" Impact="3" ChangeDirection="Less"/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Camber" Impact="6" ChangeDirection="More"/>
+                    <Setting Setting="Caster" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="Ride Hight" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Toe" Impact="5" ChangeDirection="More"/>
+                    <Setting Setting="Roll Center" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Anti-Roll bar" Impact="1" ChangeDirection="Less"/>
+                    <Setting Setting="Tires" Impact="1" ChangeDirection="Less"/>
+                    <Setting Setting="Shock Springs" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Shock Damping" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Shock Position" Impact="4" ChangeDirection="Less"/>
+                    <Setting Setting="One-Way Front Axle" Impact="5" ChangeDirection="Less"/>
+                    <Setting Setting="Solid Front Axle" Impact="5" ChangeDirection="More"/>
+                    <Setting Setting="Front Differential" Impact="6" ChangeDirection="Less"/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="3" ChangeDirection="Less"/>
+                    <Setting Setting="Camber" Impact="6" ChangeDirection="Less"/>
+                    <Setting Setting="Ride Hight" Impact="5" ChangeDirection="More"/>
+                    <Setting Setting="Roll Center" Impact="2" ChangeDirection="More"/>
+                    <Setting Setting="Anti-Roll bar" Impact="1" ChangeDirection="More"/>
+                    <Setting Setting="Tires" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Springs" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Damping" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Shock Position" Impact="4" ChangeDirection="More"/>
+                    <Setting Setting="Rear Differential" Impact="4" ChangeDirection="less"/>
+                    <Setting Setting="Solid Rear Axle" Impact="3" ChangeDirection="More"/>
+                    <Setting Setting="Gurney Strip" Impact="3" ChangeDirection="Less"/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Apex">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="5" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="6" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="4" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="5" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="8" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="3" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="1" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="1" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="3" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="5" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="4" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="5" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="5" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="6" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Exit">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Breaking">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+    </Characteristic>
+    <Characteristic Name="Oversteer">
+        <Position Name="Corner Entry">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Apex">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Exit">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Breaking">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+    </Characteristic>
+    <Characteristic Name="Roll">
+        <Position Name="Corner Entry">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Apex">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Exit">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Breaking">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+    </Characteristic>
+    <Characteristic Name="Stability">
+        <Position Name="Corner Entry">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Apex">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Exit">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Breaking">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+    </Characteristic>
+    <Characteristic Name="Agility">
+        <Position Name="Corner Entry">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Apex">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Corner Exit">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+        <Position Name="Breaking">
+            <Condition Name="On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+            <Condition Name="Not On Throttle">
+                <Side Name="Front">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Caster" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Toe" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="One-Way Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Front Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Front Differential" Impact="" ChangeDirection=""/>
+                </Side>
+                <Side Name="Rear">
+                    <Setting Setting="Downstops" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Camber" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Ride Hight" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Roll Center" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Anti-Roll bar" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Tires" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Springs" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Damping" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Shock Position" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Rear Differential" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Solid Rear Axle" Impact="" ChangeDirection=""/>
+                    <Setting Setting="Gurney Strip" Impact="" ChangeDirection=""/>
+                </Side>
+            </Condition>
+        </Position>
+    </Characteristic>
+</root>

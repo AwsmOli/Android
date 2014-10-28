@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Setup Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_suggest_text">Suggest</string>
+    <string name="conditionQuestion">Under which onThrottle is it happening?</string>
+    <string name="possitionQuestion">Where is it occurring?</string>
+    <string name="characteristicQuestion">What characteristic you don\'t like?</string>
+    <string name="title_activity_suggestion">Setup Assistant</string>
+    <string name="title_activity_my">Setup Assistant</string>
+    <string name="UndersteerbtnText">Understeer</string>
+    <string name="OversteerBtnText">Oversteer</string>
+    <string name="StabilityBtnText">Straight Line Stability</string>
+    <string name="ResponseBtnText">Steering Response</string>
+    <string name="RollBtnText">Traction Roll</string>
+    <string name="title_activity_position">Setup Assistant</string>
+    <string name="title_activity_throttle_position">Setup Assistant</string>
+    <string name="startOverBtn">Start over</string>
+    <string name="NoBtn">No</string>
+    <string name="YesBtn">Yes</string>
+    <string name="CornerEntryBtn">at Corner Entry</string>
+    <string name="MidCornerBtn">at Mid Corner</string>
+    <string name="CornerExitBtn">at Corner Exit</string>
+    <string name="BreakingBtn">at Breaking</string>
+    <string name="CharacteristicQuestion">What do you don\'t like?</string>
+    <string name="where_do_you_experience">Where do you experience </string>
+    <string name="ing">ing?</string>
+    <string name="are_you_on_throttle_when_you_are">Are you on Throttle when you are </string>
+    <string name="at">at</string>
+
+</resources>

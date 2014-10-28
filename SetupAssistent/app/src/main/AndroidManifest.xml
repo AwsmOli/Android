@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.isawsm.setupassistent" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PositionActivity"
+            android:label="@string/title_activity_position" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.isawsm.setupassistent.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ThrottlePositionActivity"
+            android:label="@string/title_activity_throttle_position"
+            android:parentActivityName=".PositionActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.isawsm.setupassistent.PositionActivity" />
+        </activity>
+        <activity
+            android:name=".SuggestionActivity"
+            android:label="@string/title_activity_suggestion"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eu.isawsm.setupassistent.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

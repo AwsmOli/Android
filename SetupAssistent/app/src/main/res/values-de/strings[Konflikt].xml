@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Setup Asistent</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_suggest_text">Suggest</string>
+    <string name="conditionQuestion">Under which onThrottle is it happening?</string>
+    <string name="possitionQuestion">Where is it occurring?</string>
+    <string name="characteristicQuestion">What characteristic you don\'t like?</string>
+    <string name="title_activity_suggestion">Setup Asistent</string>
+    <string name="title_activity_my">Setup Asistent</string>
+    <string name="UndersteerbtnText">Untersteuern</string>
+    <string name="OversteerBtnText">Übersteuern</string>
+    <string name="StabilityBtnText">Stabilität</string>
+    <string name="ResponseBtnText">Ansprechverhalten auf Lenkbefehle</string>
+    <string name="RollBtnText">Kippen</string>
+    <string name="title_activity_position">Setup Asistent</string>
+    <string name="title_activity_throttle_position">Setup Asistent</string>
+    <string name="startOverBtn">Von neu beginnen</string>
+    <string name="NoBtn">Nein</string>
+    <string name="YesBtn">Ja</string>
+    <string name="CornerEntryBtn">im Kurven Eingang</string>
+    <string name="MidCornerBtn">im Kurven Scheitelpunkt</string>
+    <string name="CornerExitBtn">im Kurven Ausgang</string>
+    <string name="BreakingBtn">beim Bremsen</string>
+    <string name="CharacteristicQuestion">Welches Fahrverhalten gefällt dir nicht?</string>
+    <string name="where_do_you_experience">Wo gefällt dir</string>
+    <string name="ing"> nicht</string>
+    <string name="are_you_on_throttle_when_you_are">Gibt du gas wenn du </string>
+    <string name="at"> </string>
+
+</resources>

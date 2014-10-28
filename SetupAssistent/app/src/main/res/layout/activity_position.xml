@@ -1,0 +1,40 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CornerEntryBtn"
+        android:id="@+id/btnCornerEntry"
+        android:onClick="btnCornerEntryClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MidCornerBtn"
+        android:id="@+id/btnMidCorner"
+        android:onClick="btnMidCornerClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CornerExitBtn"
+        android:id="@+id/btnCornerExit"
+        android:onClick="btnCornerExitClicked"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/BreakingBtn"
+        android:id="@+id/btnBreaking"
+        android:onClick="btnBreakingClicked"/>
+</LinearLayout>
