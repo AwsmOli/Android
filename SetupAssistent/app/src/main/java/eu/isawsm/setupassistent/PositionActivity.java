@@ -29,7 +29,6 @@ public class PositionActivity extends Activity {
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(getString(R.string.where_do_you_experience) +" " + problematicCharacteristic +getString(R.string.ing) + "?");
-        System.out.println("Found " + problems.size() + " problems!");
     }
 
     public void btnCornerEntryClicked(View view) {

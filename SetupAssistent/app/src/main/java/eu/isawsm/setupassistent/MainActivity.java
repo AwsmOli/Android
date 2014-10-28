@@ -45,9 +45,6 @@ public class MainActivity extends Activity {
         for (Problem problem : CSVParser.readCSV(getAssets().open("Data.csv"))) {
             if(problem.getCharacteristic().equals(button)){
                 problems.add(problem);
-            } else {
-                System.out.println(problem + "is not a problem for you!");
-                System.out.println(problem.getCharacteristic() + "!=" + button);
             }
         }
         intent.putExtra("characteristic", button);
