@@ -39,9 +39,9 @@ public class CSVParser {
     private static final String THROTTLE_POSITION = "Throttle Position";
 
 
-    public static List<Problem> readCSV(InputStream is) throws IOException {
+    public static ArrayList<Problem> readCSV(InputStream is) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-        List<Problem> problemList = new ArrayList<Problem>();
+        ArrayList<Problem> problemList = new ArrayList<Problem>();
         //Read Header
         String line = reader.readLine();
         String[] headline =  line.split(";");
@@ -58,8 +58,8 @@ public class CSVParser {
             boolean onThrottle = throttlePositionToBoolen(throttlePosition);
 
             Problem p = new Problem(characteristic,position,onThrottle);
-            for(int i = 3; i < RowData.length-1; i++) {
-                String value = RowData[i].trim();
+            for(int i = 3; i < RowData.length; i++) {
+                String value = RowData[i].replace('"',' ').trim();
                 Suggestion s = new Suggestion(getOrder(value),getSettingByColIndex(i,headline,incDecValues), getChangeDirection(value));
                 p.addSuggestion(s);
             }
@@ -76,7 +76,7 @@ public class CSVParser {
     }
 
     private static int getOrder(String value) {
-        if(!value.equals("")) return Integer.parseInt(value);
+        if(!value.equals("")) return Integer.parseInt(value.trim());
 
         return -1;
     }

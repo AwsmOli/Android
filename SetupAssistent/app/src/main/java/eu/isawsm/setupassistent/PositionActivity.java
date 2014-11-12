@@ -3,8 +3,6 @@ package eu.isawsm.setupassistent;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -28,7 +26,7 @@ public class PositionActivity extends Activity {
         problematicCharacteristic = data.getStringExtra("characteristic");
 
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(getString(R.string.where_do_you_experience) +" " + problematicCharacteristic +getString(R.string.ing) + "?");
+        textView.setText(getString(R.string.PositionPrompt));
     }
 
     public void btnCornerEntryClicked(View view) {

@@ -3,8 +3,6 @@ package eu.isawsm.setupassistent;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -31,7 +29,7 @@ public class ThrottlePositionActivity extends Activity {
         problematicPosition = data.getStringExtra("position");
 
         TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(getString(R.string.are_you_on_throttle_when_you_are) + " " + problematicCharacteristic + " " + getString(R.string.ing)+" " + getString(R.string.at) +" " +problematicPosition );
+        textView.setText(getString(R.string.ThrottlePrompt));
         System.out.println("Found " + problems.size() + " problems!");
     }
 

@@ -1,21 +1,21 @@
-Fahrverhalten; Position; Gas Position; vordere Einfederbegsbegrenzer; vorderer Sturz; vorderer Nachlauf; vordere Bodenfreiheit; vordere Vorspur; vorderes Rollzentrum; vorderer Stabilisator; vordere Reifen; vordere Federn; vordere Dämpfung; vordere Dämpferposition; Freilauf vorne; Starachse vorne; vorderes Differnezial; hintere Ausfederwegsbegrenzer; hinterer Sturz; hintere Bodenfreiheit; hinteres Rollzentrum; hintere Reifen; Hintere Federn; Hintere Dämpfung; Hintere Dämpfer Position; hinteres Diferenzial; hintere Starrachse; Abrisskante
-                       ;         ;                  ; erhöhe,reduziere; erhöhe,reduziere;erhöhe,reduziere;erhöhe,reduziere;erhöhe,reduziere;erhöhe,reduziere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende geradere,verwende schrägere;verwende keine,verwende                    ;verwende keine, verwende; verwende keine, verwende;erhöhe,reduziere;erhöhe,reduziere;erhöhe,reduziere;erhöhe,reduziere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende geradere,verwende schrägere;verwende keine, verwende;verwende keine,verwende;erhöhe,reduziere
-Untersteuern;	Kurveneingang;	Off;	-5;	6;	4;	-5;	5;	-3;	-1;	-1;	-3;	-3;	-4;	-5;	5;	-6;	-3;	-6;	5;	2;	1;	3;	3;	3;	4;	-4;	3;	-3
-Untersteuern;	Kurveneingang;	On ;	-2;	6;	3;	-5;	8;	-2;	-1;	-3;	4;	3;	4;	-5;	5;	-6;	-7;	-5;	5;	2;	1;	1;	3;	3;	4;	4;	-3;	-3
-Untersteuern;	Scheitelpunkt;	Off;	-5;	6;	4;	-5;	8;	-3;	-1;	-1;	-3;	-5;	-4;	5;	-5;	6;	-7;	-6;	5;	2;	1;	3;	3;	5;	4;	-4;	5;	-3
-Untersteuern;	Scheitelpunkt;	On;	-2;	6;	3;	-5;	8;	-2;	-1;	-3;	-4;	-5;	-4;	-5;	5;	-6;	-8;	-5;	5;	2;	1;	1;	3;	5;	4;	4;	-3;	-3
-Untersteuern;	Kurvenausgang;	On;	-2;	6;	3;	-5;	7;	-2;	-1;	-3;	-4;	-3;	-4;	-5;	5;	-6;	-8;	-5;	5;	2;	1;	1;	4;	2;	3;	4;	-3;	-3
-Untersteuern;	Bremsen;	Off;	-6;	6;	4;	-5;	7;	-4;	2;	-4;	4;	5;	4;	-3;	3;	-4;	-3;	-4;	5;	2;	1;	1;	3;	3;	3;	 ;	 ;	-3
-Übersteuern;	Kurveneingang;	Off;	-5;	-6;	-4;	-5;	-5;	3;	1;	1;	3;	3;	4;	5;	-5;	6;	3;	6;	-5;	-2;	-1;	-3;	-3;	-3;	-4;	4;	-3;	3
-Übersteuern;	Kurveneingang;	On;	-2;	-6;	-3;	-5;	-8;	2;	1;	3;	-4;	-3;	-4;	5;	-5;	6;	7;	5;	-5;	-2;	-1;	-1;	-3;	-3;	-4;	-4;	3;	3
-Übersteuern;	Scheitelpunkt;	Off;	-5;	-6;	-4;	-5;	-8;	3;	1;	1;	3;	5;	4;	-5;	5;	-6;	7;	6;	-5;	-2;	-1;	-3;	-3;	-5;	-4;	4;	-5;	3
-Übersteuern;	Scheitelpunkt;	On;	-2;	-6;	-3;	-5;	-8;	2;	1;	3;	4;	5;	4;	5;	-5;	6;	8;	5;	-5;	-2;	-1;	-1;	-3;	-5;	-4;	-4;	3;	3
-Übersteuern;	Kurvenausgang;	On;	-2;	-6;	-3;	-5;	-7;	2;	1;	3;	4;	3;	4;	5;	-5;	6;	8;	5;	-5;	-2;	-1;	-1;	-4;	-2;	-3;	-4;	3;	3
-Übersteuern;	Bremsen;	Off;	-6;	-6;	-4;	-5;	-7;	4;	-2;	4;	-4;	-5;	-4;	3;	-3;	4;	3;	4;	-5;	-2;	-1;	-1;	-3;	-3;	-3;	 ;	 ;	3
-Kippen;	Kurveneingang;	Off;	 ;	-8;	-2;	-1;	 ;	2;	1;	1;	2;	3;	4;	4;	-4;	5;	3;	6;	-1;	-2;	-1;	1;	-3;	-4;	-5;	2;	-2;	3
-Kippen;	Kurveneingang;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	-3;	-4;	-5;	4;	-4;	5;	5;	6;	-1;	-2;	-1;	1;	2;	3;	4;	-2;	2;	3
-Kippen;	Scheitelpunkt;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	2;	5;	5;	4;	-4;	5;	5;	6;	-1;	-2;	-1;	-1;	2;	5;	5;	-5;	5;	3
-Kippen;	Kurvenausgang;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	3;	4;	5;	4;	-4;	5;	 ;	6;	-1;	-2;	-1;	-1;	2;	3;	4;	-2;	2;	3
-Kippen;	Bremsen;	Off;	 ;	-8;	-2;	-1;	 ;	2;	1;	1;	-2;	-3;	-4;	4;	-4;	5;	3;	6;	-1;	-2;	-1;	-1;	-3;	-4;	-5;	-2;	2;	3
-Geradeauslauf;;	;	7;	-5;	3;	-7;	-4;	7;	5;	3;	8;	4;	8;	-8;	-8;	8;	 ;	5;	-6;	7;	7;	3;	-8;	-4;	-8;	6;	-6;	2
-Ansprechen auf Lenkbefehle;	;	;	 ;	6;	4;	-4;	5;	1;	2;	-4;	2;	1;	-4;	 ;	 ;	 ;	 ;	 ;	4;	2;	3;	4;	4;	3;	4;	 ;	 ;	-4
+Fahrverhalten; Position; Gas Position;Einfederbegsbegrenzer vorne;Sturz vorne; Nachlauf vorne;Bodenfreiheit vorne;Vorspur vorne;Rollzentrum vorne;Stabilisator vorne;Reifen vorne;Federn vorne;Dämpfung vorne;Dämpferposition vorne; Freilauf vorne; Starachse vorne;  Differnezial vorne;  Ausfederwegsbegrenzer hinten;  Sturz hinten;  Bodenfreiheit hinten;  Rollzentrum hinten; Stabilisator hinten;  Reifen hinten;  Federn hinten;  Dämpfung hinten;  Dämpfer Position hinten;  Diferenzial hinten;  Starrachse hinten; Abrisskante;;
+                       ;         ;                  ; erhöhe,senke; erhöhe,reduziere;erhöhe,reduziere;erhöhe,senke;erhöhe,reduziere;erhöhe,senke;verwende einen härteren,verwende einen weicheren;verwende  härtere,verwende weichere;verwende härtere,verwende weichere;verwende härtere,verwende weichere;verwende geradere,verwende schrägere;verwende keinen,verwende einen                    ;verwende keine, verwende eine; verwende kein, verwende ein;erhöhe,senke;erhöhe,reduziere;erhöhe,senke;erhöhe,senke;verwende einen härteren,verwende einen weicheren;verwende härtere,verwende  weichere;verwende  härtere,verwende weichere;verwende härtere,verwende weichere;verwende geradere,verwende schrägere;verwende kein, verwende;verwende keine,verwende eine;erhöhe,senke;;
+Understeer;	Corner Entry;	Off;	-5;	6;	4;	-5;	5;	-3;	-1;	-1;	-3;	-3;	-4;	-5;	5;	-6;	-3;	-6;	5;	2;	1;	3;	3;	3;	4;	-4;	3;	-3;;
+Understeer;	Corner Entry;	On ;	-2;	6;	3;	-5;	8;	-2;	-1;	-3;	4;	3;	4;	-5;	5;	-6;	-7;	-5;	5;	2;	1;	1;	3;	3;	4;	4;	-3;	-3;;
+Understeer;	Mid Corner;	Off;	-5;	6;	4;	-5;	8;	-3;	-1;	-1;	-3;	-5;	-4;	5;	-5;	6;	-7;	-6;	5;	2;	1;	3;	3;	5;	4;	-4;	5;	-3;;
+Understeer;	Mid Corner;	On;	-2;	6;	3;	-5;	8;	-2;	-1;	-3;	-4;	-5;	-4;	-5;	5;	-6;	-8;	-5;	5;	2;	1;	1;	3;	5;	4;	4;	-3;	-3;;
+Understeer;	Corner Exit;	On;	-2;	6;	3;	-5;	7;	-2;	-1;	-3;	-4;	-3;	-4;	-5;	5;	-6;	-8;	-5;	5;	2;	1;	1;	4;	2;	3;	4;	-3;	-3;;
+Understeer;	Breaking;	Off;	-6;	6;	4;	-5;	7;	-4;	2;	-4;	4;	5;	4;	-3;	3;	-4;	-3;	-4;	5;	2;	1;	1;	3;	3;	3;	 ;	 ;	-3;;
+Oversteer;	Corner Entry;	Off;	-5;	-6;	-4;	-5;	-5;	3;	1;	1;	3;	3;	4;	5;	-5;	6;	3;	6;	-5;	-2;	-1;	-3;	-3;	-3;	-4;	4;	-3;	3;;
+Oversteer;	Corner Entry;	On;	-2;	-6;	-3;	-5;	-8;	2;	1;	3;	-4;	-3;	-4;	5;	-5;	6;	7;	5;	-5;	-2;	-1;	-1;	-3;	-3;	-4;	-4;	3;	3;;
+Oversteer;	Mid Corner;	Off;	-5;	-6;	-4;	-5;	-8;	3;	1;	1;	3;	5;	4;	-5;	5;	-6;	7;	6;	-5;	-2;	-1;	-3;	-3;	-5;	-4;	4;	-5;	3;;
+Oversteer;	Mid Corner;	On;	-2;	-6;	-3;	-5;	-8;	2;	1;	3;	4;	5;	4;	5;	-5;	6;	8;	5;	-5;	-2;	-1;	-1;	-3;	-5;	-4;	-4;	3;	3;;
+Oversteer;	Corner Exit;	On;	-2;	-6;	-3;	-5;	-7;	2;	1;	3;	4;	3;	4;	5;	-5;	6;	8;	5;	-5;	-2;	-1;	-1;	-4;	-2;	-3;	-4;	3;	3;;
+Oversteer;	Breaking;	Off;	-6;	-6;	-4;	-5;	-7;	4;	-2;	4;	-4;	-5;	-4;	3;	-3;	4;	3;	4;	-5;	-2;	-1;	-1;	-3;	-3;	-3;	 ;	 ;	3;;
+Traction Roll;	Corner Entry;	Off;	 ;	-8;	-2;	-1;	 ;	2;	1;	1;	2;	3;	4;	4;	-4;	5;	3;	6;	-1;	-2;	-1;	1;	-3;	-4;	-5;	2;	-2;	3;;
+Traction Roll;	Corner Entry;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	-3;	-4;	-5;	4;	-4;	5;	5;	6;	-1;	-2;	-1;	1;	2;	3;	4;	-2;	2;	3;;
+Traction Roll;	Mid Corner;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	2;	5;	5;	4;	-4;	5;	5;	6;	-1;	-2;	-1;	-1;	2;	5;	5;	-5;	5;	3;;
+Traction Roll;	Corner Exit;	On;	6;	-8;	-2;	-1;	 ;	2;	1;	1;	3;	4;	5;	4;	-4;	5;	 ;	6;	-1;	-2;	-1;	-1;	2;	3;	4;	-2;	2;	3;;
+Traction Roll;	Breaking;	Off;	 ;	-8;	-2;	-1;	 ;	2;	1;	1;	-2;	-3;	-4;	4;	-4;	5;	3;	6;	-1;	-2;	-1;	-1;	-3;	-4;	-5;	-2;	2;	3;;
+Straight Line Stability;;	;	7;	-5;	3;	-7;	-4;	7;	5;	3;	8;	4;	8;	-8;	-8;	8;	 ;	5;	-6;	7;	7;	3;	-8;	-4;	-8;	6;	-6;	2;;
+Steering Response;	;	;	 ;	6;	4;	-4;	5;	1;	2;	-4;	2;	1;	-4;	 ;	 ;	 ;	 ;	 ;	4;	2;	3;	4;	4;	3;	4;	 ;	 ;	-4;;

@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:id="@+id/textView"
-                android:text="@string/CharacteristicQuestion" />
+                android:text="@string/CharacteristicPrompt" />
 
 
         </LinearLayout>
@@ -40,13 +40,13 @@
         android:layout_height="wrap_content"
         android:text="@string/UndersteerbtnText"
         android:id="@+id/btnUndersteer"
+        android:layout_marginTop="79dp"
+        android:onClick="btnUndersteerClicked"
         android:layout_alignTop="@+id/scrollView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="37dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="false"
-        android:onClick="btnUndersteerClicked" />
+        android:layout_alignRight="@+id/scrollView2"
+        android:layout_alignEnd="@+id/scrollView2" />
 
     <Button
         android:layout_width="wrap_content"

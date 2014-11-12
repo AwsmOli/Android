@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
     private void callNextActivity(String button, Class activity) throws IOException {
         Intent intent = new Intent(this, activity);
         ArrayList<Problem> problems = new ArrayList<Problem>();
-        for (Problem problem : CSVParser.readCSV(getAssets().open("Data.csv"))) {
+        for (Problem problem : CSVParser.readCSV(getAssets().open(getString(R.string.DataFile)))) {
             if(problem.getCharacteristic().equals(button)){
                 problems.add(problem);
             }

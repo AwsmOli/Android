@@ -34,9 +34,9 @@ public class SuggestionActivity extends Activity {
         String problematicPosition = data.getStringExtra("position");
         boolean problematicThrottlePosition = data.getBooleanExtra("ThrottlePosition", false);
 
-        String title = problematicCharacteristic;
-        if(data.hasExtra("position")) title += "-" +problematicPosition;
-        if(data.hasExtra("ThrottlePosition")) if(problematicThrottlePosition) title += "-On Throttle"; else title += "-Off Throttle";
+        String title = problems.get(0).getCharacteristic();
+        if(data.hasExtra("position")) title += "-" +problems.get(0).getPosition();
+        if(data.hasExtra("ThrottlePosition")) if(problematicThrottlePosition) title += getString(R.string.onThrottle); else title += getString(R.string.OffThrottle);
         setTitle(title);
 
 
@@ -50,7 +50,7 @@ public class SuggestionActivity extends Activity {
 
 
         for(int i = 1; i < 9; i++){
-            customAdapter.addSectionHeaderItem("Try " + getNumberString(i));
+            customAdapter.addSectionHeaderItem(getString(R.string.tri) + " " + getNumberString(i));
             for(Suggestion s : problems.get(0).getSuggestionList()){
                 if(i == s.getUseOrder())
                     customAdapter.addItem(s);
@@ -77,23 +77,23 @@ public class SuggestionActivity extends Activity {
     private String getNumberString(int i) {
         switch (i) {
             case 1:
-                return "First";
+                return getString(R.string.first);
             case 2:
-                return "Second";
+                return getString(R.string.second);
             case 3:
-                return "Third";
+                return getString(R.string.third);
             case 4:
-                return "Fourth";
+                return getString(R.string.fourth);
             case 5:
-                return "Fifth";
+                return getString(R.string.fifth);
             case 6:
-                return "Sixth";
+                return getString(R.string.sixth);
             case 7:
-                return "Seventh";
+                return getString(R.string.seventh);
             case 8:
-                return "Eighth";
+                return getString(R.string.eight);
             default:
-                return  "then";
+                return  getString(R.string.then);
         }
     }
 

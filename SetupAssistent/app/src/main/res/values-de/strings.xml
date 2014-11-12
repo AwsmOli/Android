@@ -3,15 +3,10 @@
 
     <string name="app_name">Setup Asistent</string>
     <string name="action_settings">Settings</string>
-    <string name="btn_suggest_text">Suggest</string>
-    <string name="conditionQuestion">Under which onThrottle is it happening?</string>
-    <string name="possitionQuestion">Where is it occurring?</string>
-    <string name="characteristicQuestion">What characteristic you don\'t like?</string>
     <string name="title_activity_suggestion">Setup Asistent</string>
-    <string name="title_activity_my">Setup Asistent</string>
     <string name="UndersteerbtnText">Untersteuern</string>
     <string name="OversteerBtnText">Übersteuern</string>
-    <string name="StabilityBtnText">Stabilität</string>
+    <string name="StabilityBtnText">Geradeauslauf</string>
     <string name="ResponseBtnText">Ansprechverhalten auf Lenkbefehle</string>
     <string name="RollBtnText">Kippen</string>
     <string name="title_activity_position">Setup Asistent</string>
@@ -23,10 +18,23 @@
     <string name="MidCornerBtn">im Kurven Scheitelpunkt</string>
     <string name="CornerExitBtn">im Kurven Ausgang</string>
     <string name="BreakingBtn">beim Bremsen</string>
-    <string name="CharacteristicQuestion">Welches Fahrverhalten gefällt dir nicht?</string>
-    <string name="where_do_you_experience">Wo gefällt dir</string>
-    <string name="ing"> nicht</string>
-    <string name="are_you_on_throttle_when_you_are">Gibt du gas wenn du </string>
-    <string name="at"> </string>
+    <string name="CharacteristicPrompt">Wählen Sie eine Fahreigenschaft, welche das Problem Ihres Fahrzeugs am besten beschreibt.</string>
+    <string name="PositionPrompt">Wählen Sie den Bereich der Kurve, in welchem das Problem auftritt.</string>
+    <string name="ThrottlePrompt">Wählen Sie ob Sie Gas geben wenn das Problem auftritt.</string>
+    <string name="understeer">Untersteueren</string>
+    <string name="oversteer">Oversteer</string>
+    <string name="DataFile">Data_de.csv</string>
+    <string name="first">Zuerst</string>
+    <string name="second">Zweitens</string>
+    <string name="third">Drittens</string>
+    <string name="fourth">Viertens</string>
+    <string name="fifth">Fünftens</string>
+    <string name="sixth">Sechstens</string>
+    <string name="seventh">Siebtens</string>
+    <string name="eight">Achtens</string>
+    <string name="then">dann</string>
+    <string name="tri">Versuche </string>
+    <string name="onThrottle">-am Gas</string>
+    <string name="OffThrottle">-kein Gas</string>
 
 </resources>
