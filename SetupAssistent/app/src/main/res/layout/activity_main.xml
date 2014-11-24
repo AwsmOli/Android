@@ -38,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/UndersteerbtnText"
+        android:text="@string/Understeer"
         android:id="@+id/btnUndersteer"
         android:layout_marginTop="79dp"
         android:onClick="btnUndersteerClicked"
@@ -51,7 +51,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/OversteerBtnText"
+        android:text="@string/Oversteer"
         android:id="@+id/btnOversteer"
         android:layout_below="@+id/btnUndersteer"
         android:layout_alignParentLeft="true"
@@ -63,7 +63,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/StabilityBtnText"
+        android:text="@string/Stability"
         android:id="@+id/btnStability"
         android:layout_below="@+id/btnOversteer"
         android:layout_alignParentLeft="true"
@@ -75,7 +75,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/ResponseBtnText"
+        android:text="@string/Response"
         android:id="@+id/btnResponse"
         android:layout_below="@+id/btnStability"
         android:layout_alignParentLeft="true"
@@ -87,7 +87,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RollBtnText"
+        android:text="@string/Roll"
         android:id="@+id/btnRoll"
         android:layout_below="@+id/btnResponse"
         android:layout_alignParentLeft="true"

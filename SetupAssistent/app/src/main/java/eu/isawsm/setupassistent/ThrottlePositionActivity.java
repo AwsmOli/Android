@@ -30,7 +30,6 @@ public class ThrottlePositionActivity extends Activity {
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(getString(R.string.ThrottlePrompt));
-        System.out.println("Found " + problems.size() + " problems!");
     }
 
     public void btnYesClicked(View view) {
@@ -49,7 +48,7 @@ public class ThrottlePositionActivity extends Activity {
 
                 filteredProblems.add(problem);
             }
-            System.out.println(problem.getOnThrottle() + " && " + button + " = " + !(problem.getOnThrottle() ^ button));
+
         }
         intent.putExtra("characteristic", problematicCharacteristic);
         intent.putExtra("position", problematicPosition);

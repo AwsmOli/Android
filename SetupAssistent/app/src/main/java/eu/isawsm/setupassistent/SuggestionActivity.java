@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.LauncherActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -13,6 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import eu.isawsm.setupassistent.custom.*;
+
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 
@@ -30,19 +33,15 @@ public class SuggestionActivity extends Activity {
 
         Intent data = getIntent();
         ArrayList<Problem> problems = (ArrayList<Problem>) data.getSerializableExtra("Problems");
-        String problematicCharacteristic = data.getStringExtra("characteristic");
-        String problematicPosition = data.getStringExtra("position");
+        String problematicCharacteristic = (data.getStringExtra("characteristic"));
+        String problematicPosition = (data.getStringExtra("position"));
         boolean problematicThrottlePosition = data.getBooleanExtra("ThrottlePosition", false);
 
-        String title = problems.get(0).getCharacteristic();
-        if(data.hasExtra("position")) title += "-" +problems.get(0).getPosition();
+        String title = getLocalizedString(problems.get(0).getCharacteristic());
+        if(data.hasExtra("position")) title += "-" +getLocalizedString(problems.get(0).getPosition());
         if(data.hasExtra("ThrottlePosition")) if(problematicThrottlePosition) title += getString(R.string.onThrottle); else title += getString(R.string.OffThrottle);
         setTitle(title);
 
-
-
-        System.out.println("Found " + problems.size() + " problems!");
-        System.out.println("Have " + problems.get(0).getSuggestionList().size() + " Suggestions for you!");
         ListView listView = (ListView) findViewById(R.id.listView);
 
         final CustomAdapter customAdapter = new CustomAdapter(this);
@@ -66,6 +65,14 @@ public class SuggestionActivity extends Activity {
 
             }
         });
+    }
+
+    private String getLocalizedString(String s) {
+        TypedValue retVal = new TypedValue();
+        System.out.println("###################"+s);
+        getResources().getValue(s, retVal, true);
+
+        return retVal.coerceToString().toString();
     }
 
     private void showToast(Object item){
