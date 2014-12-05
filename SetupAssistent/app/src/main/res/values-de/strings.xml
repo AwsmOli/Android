@@ -8,7 +8,7 @@
     <string name="Oversteer">Übersteuern</string>
     <string name="Stability">Geradeauslauf</string>
     <string name="Response">Ansprechverhalten auf Lenkbefehle</string>
-    <string name="Roll">Kippen</string>
+    <string name="Roll">Traktions Rolle</string>
     <string name="title_activity_position">Setup Asistent</string>
     <string name="title_activity_throttle_position">Setup Asistent</string>
     <string name="startOverBtn">Von neu beginnen</string>

@@ -1,40 +1,55 @@
-<LinearLayout
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:id="@+id/textView" />
-
-    <Button
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/CornerEntryBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/PositionPrompt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
         android:id="@+id/btnCornerEntry"
-        android:onClick="btnCornerEntryClicked"/>
-
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/MidCornerBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:onClick="btnCornerEntryClicked"
+        android:text="@string/CornerEntryBtn" />
+
+    <Button
         android:id="@+id/btnMidCorner"
-        android:onClick="btnMidCornerClicked"/>
-
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/CornerExitBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:onClick="btnMidCornerClicked"
+        android:text="@string/MidCornerBtn" />
+
+    <Button
         android:id="@+id/btnCornerExit"
-        android:onClick="btnCornerExitClicked"/>
-
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/BreakingBtn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:onClick="btnCornerExitClicked"
+        android:text="@string/CornerExitBtn" />
+
+    <Button
         android:id="@+id/btnBreaking"
-        android:onClick="btnBreakingClicked"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:onClick="btnBreakingClicked"
+        android:text="@string/BreakingBtn" />
 </LinearLayout>
